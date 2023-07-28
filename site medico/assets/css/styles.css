@@ -1,0 +1,89 @@
+/* Estilos para a barra de navegação */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f8f8;
+    padding: 0; /* Use '0' em vez de 'none' para remover o preenchimento */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%; /* Use '100%' em vez de '99%' para ocupar toda a largura da tela */
+}
+
+.logo {
+    font-size: 24px;
+    display: flex;
+}
+
+.nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 30px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    cursor: pointer;
+    transition: transform 0.1s ease;
+}
+
+/* Efeito de animação ao passar o mouse sobre os itens do navbar */
+.nav-links li a:hover {
+    color: #666;
+    transform: scale(1.5);
+}
+.servicos {
+    margin-top: 88px;
+    border: 3px solid floralwhite;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #f8f8f8;
+    text-align: center;
+}
+
+
+/* Estilos para os itens da lista de serviços */
+
+.servicos li {
+    list-style: none;
+    margin: 10px 0;
+    font-size: 18px;
+    cursor: pointer;
+    transition: transform 0.1s ease;
+}
+
+
+/* Efeito de animação ao passar o mouse sobre os itens */
+
+.servicos li:hover {
+    transform: scale(1.5);
+}  
+
+
+/* Estilos para o perfil */
+.perfil {
+    margin-top: 100px;
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: center;
+    padding: 0px;
+}
+
+.perfil img {
+    width: 300px;
+    height: 300px;
+}
+
+/* Estilos adicionais */
+body {
+    padding-top: 50px; /* Adicione um espaço em branco no topo do conteúdo principal para não ser sobreposto pela barra de navegação */
+}
