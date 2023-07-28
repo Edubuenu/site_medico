@@ -4,10 +4,10 @@
     justify-content: space-between;
     align-items: center;
     background-color: #f8f8f8;
-    padding: 0; /* Use '0' em vez de 'none' para remover o preenchimento */
+    margin-top: -58px;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
     position: fixed;
-    width: 100%; /* Use '100%' em vez de '99%' para ocupar toda a largura da tela */
+    width: 99%; 
 }
 
 .logo {
